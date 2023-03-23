@@ -691,3 +691,24 @@ cursor: pointer;
   color: #EB5437;
 }
 
+footer{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer span{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  width: 150px;
+  height: 100px;
+  background-image: url(./Resouces/Icon/INSPIRE_LOGO_SQ-color_transparent_-05.png);
+  margin-bottom: 25px;
+}
