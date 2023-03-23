@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COS 2022 | UNSTOPPABLE </title>
+    <link rel="icon" type="cos-icon" href="./Resouces/Icon/cos-favicon.svg">
+    <link rel="stylesheet"  media="screen and (max-width:700px)" href="./movil.css">
+    <link rel="stylesheet"  media="screen and (min-width:700px)" href="./Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("March 31, 2023 10:00:00").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get today's date and time
+          var now = new Date().getTime();
+            
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+            
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+           
+           
+            // Output the result in an element with id="demo"
+          document.getElementById("demo").innerHTML = days;
+          
+           // Output the result in an element with id="demo2"
+          document.getElementById("demo2").innerHTML = hours;
+          
+          // Output the result in an element with id="demo3"
+          document.getElementById("demo3").innerHTML = minutes;
+          
+          // Output the result in an element with id="demo4"
+          document.getElementById("demo4").innerHTML = seconds;
+          
+          
+          
+            
+          // If the count down is over, write some text 
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+
+ 
+        </script> 
+        
+</head>
+<body>
+    <main>
+    <section class="video">
+        <video id="myVideo" autoplay muted loop >
+            <source src="./Resouces/video/58c113ca.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video> 
+          <div class="logo"><span></span></div>
+          <section class="tittle">
+           
+            <h1>SOMETHING AWESOME IS COMING</h1>
+            <h3>IMAGINE A LIFE WITHOUT PILLS</h3>
+          </section>
+    </section>
+    <Section class="info">
+        <div class="info_count">
+         
+          
+
+                <section class="main-count">
+
+                    
+                       <section class="count">
+                    <div class="count-info">
+                        <p id="p">D</p>
+                    <p id="demo"></p>
+                    
+                    </div>
+                    
+                    <div class="count-info">
+                        <p id="p">H</p>
+                    <p id="demo2"></p>
+                    
+                    </div>
+                    <div class="count-info">
+                        <p id="p">M</p>
+                    <p id="demo3"></p>
+                    
+                    </div>
+                    <div class="count-info">
+                        <p id="p">S</p>
+                    <p id="demo4"></p>
+                    
+                    </div>
+            </section>
+
+        
+        </div>
+        <div class="info_text">
+            <p>Attend this one day event to get the top strategies for personal and professional success. you’ll get training on the most advanced nutritional products, team building, personal development, business, money, motivation and so much more!
+
+            <br> 
+            <strong>The time is now!</strong></p>
+            <!-- <div class="boton-registrate">
+                <a  class="boton-regi" href="https://www.eventbrite.com/e/cos2022-celebration-of-success-tickets-439216788237" target="_blank">REGISTER NOW</a>
+            </div> -->
+            <h2>SUBSCRIBE NOW</h2>
+        </div>
+       
+        <section class="info_cards">
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-6b0f0a7a-d23f-46de-bb6a-51e21080d7a3"></div>
+            
+        </section>
+</Section>
+
+    
+
+
+    
+
+</main>
+</body>
+</html>
