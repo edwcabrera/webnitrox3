@@ -17,7 +17,7 @@ color: white;
   }
 
   .video{
-    background-color: #7D0606;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,6 +88,10 @@ body{
    width: 250px;
    height: 100px;
 
+}
+
+.info_count{
+  width: 90%;
 }
 .main-count{
     width: 90%;

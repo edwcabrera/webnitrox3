@@ -22,12 +22,11 @@
   #myVideo {
     position: relative;
       display: block;
-      width: 116%;
+      width: 145%;
       
     }
   
     .video{
-      background-color: #7D0606;
       display: flex;
       flex-direction: column;
       align-items: center;
