@@ -49,6 +49,7 @@ color: white;
     height: 50px;
     background-image: url(./Resouces/Icon/nitrox3.svg);
   }
+
 .tittle{
   width: 100%;
   position: absolute;
@@ -99,11 +100,11 @@ body{
 
 }
 .main-count{
-    
+     width: 90%;
     margin: 82px auto;
     display: grid;
-    
-    
+    grid-template-columns: minmax(300px, 320);
+    grid-template-rows: minmax(50px, auto); 
     align-content: center;
     justify-items: center;
     gap: 82px;
