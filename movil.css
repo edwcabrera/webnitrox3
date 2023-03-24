@@ -27,7 +27,7 @@ color: white;
   }
 
   .video{
-  
+    background-color: #7D0606;
     display: flex;
     flex-direction: column;
     align-items: center;
