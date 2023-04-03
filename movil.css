@@ -36,22 +36,30 @@ color: white;
     display: flex;
     justify-content: center;
   }
-.logo{
-  position: absolute;
-  top: 30px;
-  
-}
+  header{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: #fafafa;
+  }
 
-  .logo span{
+  .Logo-nitrox{
+    width: 400px;
+  }
+
+  .Logo-nitrox span{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     display: block;
-    width: 150px;
-    height: 50px;
-    background-image: url(./Resouces/Icon/SVG/nitrox3-logo.svg);
+    width: 450px;
+    height: 200px;
+    background-image: url(./Resouces/Icon/nitrox3.png);
   }
-
 .tittle{
   width: 100%;
   position: absolute;
