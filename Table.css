@@ -34,12 +34,12 @@
       height: 658px;
       overflow: hidden
     }
-  .logo{
+    .logo-nitrox{
     position: absolute;
     top: 30px;
     
   }
-    .logo span{
+    .Logo-nitrox span{
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
@@ -214,10 +214,8 @@
     justify-content: center;
     gap: 100px;
     position: relative;
-    bottom: 60px;
-    BACKGROUND-COLOR: #7d0606;
-      PADDING: 60PX;
-      margin-top: 57px;
+    PADDING: 60PX;
+     
    
   
   }
