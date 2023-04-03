@@ -214,8 +214,10 @@
     justify-content: center;
     gap: 100px;
     position: relative;
-    PADDING: 60PX;
-     
+    bottom: 60px;
+    BACKGROUND-COLOR: #7d0606;
+      PADDING: 60PX;
+      margin-top: 57px;
    
   
   }

@@ -22,11 +22,8 @@ color: white;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 500px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-
+    height: 713px;
+    overflow: hidden
   }
 
   header{
@@ -221,9 +218,10 @@ body{
   justify-content: center;
   gap: 100px;
   position: relative;
-  
+  bottom: 60px;
+  BACKGROUND-COLOR: #7d0606;
     PADDING: 60PX;
-    position: absolute;
+    margin-top: 57px;
     
  
 
