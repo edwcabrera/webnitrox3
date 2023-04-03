@@ -44,11 +44,10 @@ header{
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    background-color: #fafafa;
   }
 
   .Logo-nitrox{
-    width: 350px;
+    width: 300px;
   }
 
   .Logo-nitrox span{
@@ -56,7 +55,7 @@ header{
     background-size: contain;
     background-position: center;
     display: block;
-    width: 350px;
+    width: 300px;
     height: 200px;
     background-image: url(./Resouces/Icon/nitrox3.png);
   }
@@ -97,7 +96,7 @@ body{
    background-position: center;
    background-repeat: no-repeat;
    background-size:contain;
-   width: 740px;
+   width: 350px;
    height: 488px;
    margin-top: 50PX;
 }
