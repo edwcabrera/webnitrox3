@@ -87,6 +87,17 @@
     color:#7D0606;
     
   }
+
+  .nitrox-bag{
+    display: block;
+     background-image: url(./Resouces/img/Nitrox3bag.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size:contain;
+     width: 740px;
+     height: 488px;
+     margin-top: 50PX;
+  }
   .count-tittle span{
      display: block;
      background-image: url(./Logo\ blanco.svg);
