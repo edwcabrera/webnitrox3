@@ -96,8 +96,8 @@ body{
    background-position: center;
    background-repeat: no-repeat;
    background-size:contain;
-   width: 350px;
-   height: 350px;
+   width: 403px;
+    height: 244px;
    margin-top: 5PX;
 }
 .main-count p {
@@ -121,7 +121,7 @@ body{
 }
 .main-count{
      width: 90%;
-    margin: 82px auto;
+    margin: 20px auto;
     display: grid;
     grid-template-columns: minmax(300px, 320);
     grid-template-rows: minmax(50px, auto); 
