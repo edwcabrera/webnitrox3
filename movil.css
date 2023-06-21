@@ -218,13 +218,25 @@ body{
   text-align: justify;
 }
 
-.info_text h2 {
+.info_text h2{
   color: #7D0606;
-  font-size: 27px;
+  font-size: 35px;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 2px;
-  margin-top: 60px;
+  margin-top: 26px;
+
+}
+
+.info_text h3{
+  color: #7D0606;
+  font-size: 25px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2px;
+  margin-top:30px;
+  margin-bottom: 30px;
+
 }
 
 /* Tarjetas */
@@ -780,4 +792,23 @@ footer span{
   height: 100px;
   background-image: url(./Resouces/Icon/INSPIRE_LOGO_SQ-color_transparent_-05.png);
   margin-bottom: 25px;
+}
+
+.facts{
+  margin-top: 25px;
+}
+
+.facts p{
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.table-facts span{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: block;
+  width: 375px;
+  height: 390px;
+  background-image: url(./Resouces/img/Supplement\ facts@4x.png);
 }
